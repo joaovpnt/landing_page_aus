@@ -1,0 +1,74 @@
+header{
+    height: 100px;
+    background-color: rebeccapurple;
+}
+#icone-menu{
+    float: left;
+}
+#imagem-menu{
+    width: 100%;
+    height: 100px;
+}
+.conjunto-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-basis: auto;
+}
+.item-menu{
+    display: inline-block;
+    font-size: 35px;
+    padding-top: 2%;
+    font-weight: bold;
+}
+.section-format{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+#div-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#div-format #titulo-format{
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+}
+.paragrafos{
+    font-size: 30px;
+    padding-left: 40px;
+}
+.imagem-format{
+    width: 50%;
+}
+
+.botao-section{
+    width: 33%;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#rodape{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding-top: 8px;
+}
