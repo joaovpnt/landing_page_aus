@@ -26,10 +26,14 @@ header{
 }
 .item-menu{
     display: inline-block;
+    text-decoration: none;
     font-size: 35px;
     padding-top: 2%;
-    font-weight: bold;
+}
+.item-menu > a{
+    text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 .section-format{
     display: flex;
