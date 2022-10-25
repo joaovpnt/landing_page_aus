@@ -1,2 +1,2 @@
-# landing_page_kj
-Landing Page about Killjoy
+# landing_page_aus
+Landing Page about Australia
