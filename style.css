@@ -35,6 +35,17 @@ header{
     color: white;
     font-weight: bold;
 }
+.item-menu > a:hover{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
 .section-format{
     display: flex;
     align-items: center;
@@ -49,7 +60,7 @@ header{
 }
 .div-format .titulo-format{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     padding: 5px;
 }
 .paragrafos{
@@ -63,6 +74,16 @@ header{
     margin: 5px;
     width: 48%;
 }
+.imagem-format:hover{
+    transition: 1s;
+    margin: 5px;
+    width: 50%;
+    padding-bottom: 3px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
 
 .botao-section{
     width: 33%;
@@ -75,6 +96,7 @@ header{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-weight: bold;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -82,13 +104,51 @@ header{
     -o-border-radius: 10px;
 }
 
+.botao-section > a{
+    text-decoration: none;
+    color: white;
+}
+
+.botao-section:hover{
+    text-decoration: none !important;
+    width: 33%;
+    background-color: #030A8C;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 1.5s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+.botao-section > a:hover{
+    text-decoration: none;
+}
+
+
 #rodape{
     width: 100%;
     text-align: center;
     background-color: black;
     color: white;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 15px;
     font-style: italic;
-    background-color: black;
+}
+#rodape > a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
 }
